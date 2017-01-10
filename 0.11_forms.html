@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms, inputs and textarea</title>
+</head>
+<body>
+	<div class="form-one">
+		<form>
+			<p><label>Customer Name: <input /></label></p>
+			<p><label>Street Address: <input /></label></p>
+			<p><label>City: <input /></label></p>
+			<p><label>State: <input /></label></p>
+			<p><label>Phone#: <input /></label></p>
+		</form>
+	</div>
+	<br />
+	<div class="form-two">
+		<form>
+			<fieldset>
+				<legend>Customer Information</legend>
+				<p><label>Customer Name: <input /></label></p>
+				<p><label>Street Address: <input /></label></p>
+				<p><label>City: <input /></label></p>
+				<p><label>State: <input /></label></p>
+				<p><label>Phone#: <input /></label></p>
+				<p><label>BD: <input type="time" name="time"/></label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-three">
+		<form>
+			<fieldset>
+				<legend>Sloppiest Sloppy Joe's Ever</legend>
+				<p><input type="radio" name="size" id="size1" /><label>Somewhat sloppy</label></p>
+				<p><input type="radio" name="size" id="size2" /><label>Sloppier</label></p>
+				<p><input type="radio" name="size" id="size3" /><label>Super Slopt</label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div>
+		<form class="form-four">
+			<fieldset>
+				<legend>Toppings</legend>
+				<p><input type="checkbox" name="toppings" id="top1" /><label>BBQ</label></p>
+				<p><input type="checkbox" name="toppings" id="top2" /><label>Ketchup</label></p>
+				<p><input type="checkbox" name="toppings" id="top3" /><label>Mustard</label></p>
+				<p><input type="checkbox" name="toppings" id="top4" /><label>Ranch</label></p>
+			</fieldset>
+		</form>
+	</div>
+	<div>
+		<form class="form-five">
+			<fieldset>
+				<p><label>Preferred delivery time: <input type="time" min="11:00" max="21:00" step="900"></label></p>
+				<p><label>Delivery instructions: <textarea></textarea></label></p>
+				<p><button>Submit order</button></p>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
